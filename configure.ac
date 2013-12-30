@@ -1,0 +1,10 @@
+AC_INIT(src/azs.cpp)
+
+PACKAGE=azs
+VERSION=0.1.0
+
+AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
+
+AC_PROG_CXX
+
+AC_OUTPUT(Makefile src/Makefile)
